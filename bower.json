@@ -1,0 +1,20 @@
+{
+  "name": "texen-core",
+  "description": "Texen (Texture Engine) core",
+  "main": "",
+  "authors": [
+    "Jan Forst <ensonador@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "emsdk": "http://s3.amazonaws.com/mozilla-games/emscripten/releases/emsdk-1.35.0-portable-64bit.zip"
+  }
+}

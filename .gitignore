@@ -1,0 +1,12 @@
+node_modules/
+bower_components/
+.idea/
+doc/
+src/
+test/output/
+build/msvc2013
+build/**/*.opensdf
+build/**/*.suo
+build/**/*.sdf
+build/**/Debug/
+build/**/Release/

@@ -1,0 +1,16 @@
+build/
+doc/
+gulp_tasks/
+node_modules/
+bower_components/
+src/
+test/
+tools/
+
+.clang-format
+.editorconfig
+.npmignore
+gulpfile.js
+
+.idea/
+

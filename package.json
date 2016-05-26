@@ -1,0 +1,33 @@
+{
+  "name": "texen-core",
+  "description": "Texen (Texture Engine) core",
+  "version": "1.0.0",
+  "author": "Jan Forst <ensonador@gmail.com>",
+  "devDependencies": {
+    "bower": "^1.7.9",
+    "del": "^2.2.0",
+    "glob": "^6.0.1",
+    "gulp": "^3.9.0",
+    "gulp-clang-format": "^1.0.21",
+    "gulp-load-plugins": "^1.1.0",
+    "gulp-msbuild": "^0.2.12",
+    "gulp-util": "^3.0.7",
+    "mkdirp": "^0.5.1",
+    "texen-samples": "file:..\\texen-samples"
+  },
+  "engines": {
+    "node": ">=0.12.0"
+  },
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "."
+  },
+  "scripts": {
+    "emsdk-activate": "emsdk-activate.cmd",
+    "emsdk-install": "emsdk-install.cmd",
+    "gulp": "emsdk-activate.cmd && gulp",
+    "install": "bower i",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
